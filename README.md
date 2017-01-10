@@ -28,7 +28,7 @@ All tests should pass.
 
 2. Run `npm run test:nyc`
 
-Test fails  
+
 ```
 D:\projects\test-nyc>npm run test:nyc
 
@@ -91,3 +91,4 @@ D:\projects\test-nyc>npm run test:nyc
 
 
 ```
+Test fails  
