@@ -1,8 +1,8 @@
 #NYC-FUNC-NAME-TEST
 
-Steps.
-1. Run `npm install`
-2. Run `npm test`
+Steps.  
+1. Run `npm install`  
+2. Run `npm test`  
 
 ```
 D:\projects\test-nyc>npm test
