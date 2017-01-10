@@ -33,7 +33,7 @@ Test fails
 D:\projects\test-nyc>npm run test:nyc
 
 > test-nyc@0.0.1 test:nyc D:\projects\test-nyc
-> nyc mocha --opts mocha.opts && rm -rf test
+> nyc mocha --opts mocha.opts
 
 
 
@@ -63,19 +63,19 @@ All files              |    85.71 |      100 |    66.67 |    85.71 |            
 -----------------------|----------|----------|----------|----------|----------------|
 
 npm ERR! Windows_NT 10.0.14393
-npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\Avi Kessner\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "test:nyc"
+npm ERR! argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\<Redacted>\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "test:nyc"
 npm ERR! node v7.2.1
 npm ERR! npm  v4.0.5
 npm ERR! code ELIFECYCLE
-npm ERR! test-nyc@0.0.1 test:nyc: `nyc mocha --opts mocha.opts && rm -rf test`
+npm ERR! test-nyc@0.0.1 test:nyc: `nyc mocha --opts mocha.opts`
 npm ERR! Exit status 1
 npm ERR!
-npm ERR! Failed at the test-nyc@0.0.1 test:nyc script 'nyc mocha --opts mocha.opts && rm -rf test'.
+npm ERR! Failed at the test-nyc@0.0.1 test:nyc script 'nyc mocha --opts mocha.opts'.
 npm ERR! Make sure you have the latest version of node.js and npm installed.
 npm ERR! If you do, this is most likely a problem with the test-nyc package,
 npm ERR! not with npm itself.
 npm ERR! Tell the author that this fails on your system:
-npm ERR!     nyc mocha --opts mocha.opts && rm -rf test
+npm ERR!     nyc mocha --opts mocha.opts
 npm ERR! You can get information on how to open an issue for this project with:
 npm ERR!     npm bugs test-nyc
 npm ERR! Or if that isn't available, you can get their info via:
