@@ -52,7 +52,7 @@
     "babel-preset-node6-es6": "^11.2.5",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "nyc": "^10.0.0",
+    "nyc": "next",
     "ts-node": "^1.7.2",
     "tslint": "^4.1.1",
     "typescript": "^2.1.4"
